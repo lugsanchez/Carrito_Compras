@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Carrito de compras</title>
+</head>
+<body>
+
+  <header><h1>Carrito de Compras</h1></header>
+  <div class="container">
+    <div class="modal">
+
+      <button id="closeModal">X</button>
+
+      <input type="text" id="newProduct" placeholder="Product">
+      <input type="text" id="newPrice" placeholder="Price">
+      <input type="file" id="newImage">
+      <button id="btnNew">Create new Object</button>
+    </div>
+
+    <select name="" id="select-products">
+      <option value="">Select a product</option>
+    </select>
+
+    <button id="addProduct">add new product</button>
+    <select name="" id="filter">
+      <option value="">Select Filter</option>
+      <option value="menores a 2">Menor a 2</option>
+      <option value="entre 2 y 4">entre 2 y 4</option>
+      <option value="mayores a 4">mayores a 4</option>
+    </select>
+  </div>
+  <main id="contenedor"></main>
+  <script src="app.js"></script>
+  <script src="products.js"></script>
+</body>
+</html>
+
+
+
+    
